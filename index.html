@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interfaz de Usuario con Interruptores</title>
+    <title>Test</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #ffffff;
         }
 
         h1 {
@@ -44,7 +44,7 @@
 </head>
 <body>
 
-    <h1>Mi Interfaz con Interruptores</h1>
+    <h1>Eres un Pollo?</h1>
 
     <div class="switch-container">
         <div class="switch">
@@ -66,13 +66,13 @@
             const responseDiv = document.getElementById('response');
 
             if (switch1 && !switch2) {
-                responseDiv.textContent = 'Has activado el Interruptor 1';
+                responseDiv.textContent = 'Lo sabía!!';
             } else if (switch2 && !switch1) {
-                responseDiv.textContent = 'Has activado el Interruptor 2';
+                responseDiv.textContent = 'Mentiroso!!';
             } else if (switch1 && switch2) {
-                responseDiv.textContent = 'Ambos interruptores están activados';
+                responseDiv.textContent = 'Decidete!!';
             } else {
-                responseDiv.textContent = 'Ningún interruptor está activado';
+                responseDiv.textContent = '>:(';
             }
         }
     </script>
