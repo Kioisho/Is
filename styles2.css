@@ -1,4 +1,13 @@
-/* From Uiverse.io by Sashank02 */ 
+/* Desde Uiverse.io por Sashank02 */ 
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    background-color: #f9f9f9; /* Cambia el color de fondo si lo deseas */
+}
+
 .card {
     padding: 20px;
     width: 330px;
