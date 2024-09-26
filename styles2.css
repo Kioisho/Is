@@ -8,46 +8,49 @@
     box-shadow: 5px 5px 6px #dadada,
                  -5px -5px 6px #f6f6f6;
     transition: 0.4s;
-  }
-  
-  .card:hover {
+    text-align: center; /* Centramos el texto en la tarjeta */
+}
+
+.card:hover {
     translate: 0 -10px;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-size: 18px;
     font-weight: 600;
     color: #2e54a7;
     margin: 15px 0 0 10px;
-  }
-  
-  .card-image {
+}
+
+.card-image {
     min-height: 170px;
     border-radius: 15px;
     overflow: hidden; /* Asegura que la imagen no sobresalga de los bordes redondeados */
     box-shadow: inset 8px 8px 10px #c3c3c3,
-              inset -8px -8px 10px #cfcfcf;
-  }
-  
-  .card-image img {
+                inset -8px -8px 10px #cfcfcf;
+    display: flex; /* Usamos flexbox para centrar la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+}
+
+.card-image img {
     width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
     height: auto; /* Mantiene la relación de aspecto de la imagen */
-  }
-  
-  .card-body {
+}
+
+.card-body {
     margin: 13px 0 0 10px;
     color: rgb(31, 31, 31);
     font-size: 15px;
-  }
-  
-  .footer {
+}
+
+.footer {
     float: right;
     margin: 28px 0 0 18px;
     font-size: 13px;
     color: #636363;
-  }
-  
-  .by-name {
+}
+
+.by-name {
     font-weight: 700;
-  }
-  
+}
