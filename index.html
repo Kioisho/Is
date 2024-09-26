@@ -3,79 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #ffffff;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .switch-container {
-            display: flex;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .switch {
-            display: flex;
-            align-items: center;
-        }
-
-        .switch input {
-            margin-right: 10px;
-        }
-
-        .response {
-            margin-top: 20px;
-            font-size: 1.2rem;
-            color: #333;
-        }
-    </style>
+    <title>Cerrado</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Eres un Pollo?</h1>
-
-    <div class="switch-container">
-        <div class="switch">
-            <input type="checkbox" id="switch1" onchange="showResponse()">
-            <label for="switch1">Interruptor 1</label>
-        </div>
-        <div class="switch">
-            <input type="checkbox" id="switch2" onchange="showResponse()">
-            <label for="switch2">Interruptor 2</label>
-        </div>
-    </div>
-
-    <div id="response" class="response"></div>
-
-    <script>
-        function showResponse() {
-            const switch1 = document.getElementById('switch1').checked;
-            const switch2 = document.getElementById('switch2').checked;
-            const responseDiv = document.getElementById('response');
-
-            if (switch1 && !switch2) {
-                responseDiv.textContent = 'Lo sabía!!';
-            } else if (switch2 && !switch1) {
-                responseDiv.textContent = 'Mentiroso!!';
-            } else if (switch1 && switch2) {
-                responseDiv.textContent = 'Decidete!!';
-            } else {
-                responseDiv.textContent = '>:(';
-            }
-        }
-    </script>
+    <!-- From Uiverse.io by ke1221 -->
+    <button onclick="window.location.href='pagina2.html'">Abreme</button>
 
 </body>
 </html>
