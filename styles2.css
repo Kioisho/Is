@@ -1,3 +1,11 @@
+
+  
+  .music-player {
+    text-align: center; /* Centra el reproductor */
+    margin-top: 20px; /* Añade un espacio en la parte superior */
+}
+
+
 /* Estilos generales */
 body {
     display: flex;
@@ -124,8 +132,4 @@ body {
   
 
 
-  
-  .music-player {
-    text-align: center; /* Centra el reproductor */
-    margin-top: 20px; /* Añade un espacio en la parte superior */
-}
+
