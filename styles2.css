@@ -121,3 +121,16 @@ body {
     box-shadow: 0.05em 0.05em #5566c2;
   }
   
+  .music-player {
+    text-align: center; /* Centra el contenido */
+    margin-bottom: 20px; /* Espacio debajo del reproductor */
+}
+
+audio {
+    width: 100%; /* Ancho del reproductor */
+    max-width: 600px; /* Ancho máximo del reproductor */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f0f0f0; /* Color de fondo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
