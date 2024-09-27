@@ -21,10 +21,19 @@
         p.welcome {
             font-size: 1.2em; /* Tamaño de texto más grande */
             line-height: 1.5; /* Espaciado entre líneas */
-            margin-bottom: 40px; /* Espacio debajo del párrafo de bienvenida */
+            margin-bottom: 50px; /* Espacio debajo del párrafo de bienvenida */
         }
         .container {
-            margin-top: 20px; /* Espacio arriba de la tarjeta */
+            display: flex; /* Usar flexbox para centrar la tarjeta */
+            justify-content: center; /* Centrar horizontalmente */
+            margin-top: 30px; /* Aumentar el margen superior de la tarjeta */
+        }
+        .card {
+            max-width: 400px; /* Limitar el ancho de la tarjeta */
+            background-color: white; /* Fondo blanco para la tarjeta */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para la tarjeta */
+            padding: 20px; /* Espacio interior de la tarjeta */
         }
     </style>
 </head>
@@ -35,7 +44,7 @@
     <div class="container">
         <div class="card">
             <div class="card-image">
-                <img src="mi_imagen.jpg" alt="Pollos"> 
+                <img src="mi_imagen.jpg" alt="Pollos" style="width: 100%; height: auto; border-radius: 10px;"> 
             </div>
             <p class="card-title">Pollos</p>
             <p class="card-body"> 
