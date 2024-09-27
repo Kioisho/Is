@@ -120,4 +120,12 @@ body {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #5566c2;
   }
+
   
+
+
+  
+  .music-player {
+    text-align: center; /* Centra el reproductor */
+    margin-top: 20px; /* Añade un espacio en la parte superior */
+}
