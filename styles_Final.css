@@ -1,3 +1,21 @@
+/* Reproductor de música */
+.music-player {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f3f3f3;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Para asegurarse de que esté siempre visible */
+}
+
+/* Ajusta el body para dejar espacio para el reproductor */
+body {
+    padding-top: 60px; /* Asegúrate de que no se superponga con el contenido */
+}
+
 body {
     display: flex;
     align-items: flex-start; /* Empieza un poco desde arriba */
